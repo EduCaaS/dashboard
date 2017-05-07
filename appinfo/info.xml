@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>educaasdashboard</id>
+    <name>Educaas Dashboard</name>
+    <summary>EduCaaS dashboard for Nextcloud</summary>
+    <description><![CDATA[Dashboard for EduCaaS]]></description>
+    <licence>agpl</licence>
+    <author mail="dalareo@gmail.com" homepage="https://educaas.github.io">David A. Lareo</author>
+    <version>0.0.1</version>
+    <namespace>EducaasDashboard</namespace>
+    <category>tools</category>
+    <bugs>https://github.com/EduCaaS/dashboard/issues</bugs>
+    <dependencies>
+        <owncloud min-version="9.2"/>
+        <nextcloud min-version="11" max-version="11"/>
+    </dependencies>
+</info>
