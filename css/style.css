@@ -1,3 +1,45 @@
-#hello {
-	color: red;
+
+body {
+      font-family: 'Oswald', sans-serif;
+      color: #3a3a3a;
+      background-color: #F2F3D7;
+}
+
+.container-fluid {
+      margin: 0 auto;
+}
+
+h3 {
+      text-align: center;
+      margin-bottom: 1em;
+}
+
+.row {
+      margin-top: 2.5%;
+ }
+
+.box {
+      max-width: 200px;
+      max-height: 250px;
+      overflow: hidden;
+      cursor: pointer;
+ }
+
+img {
+      width: 100%;
+      max-width: 420px;
+      height: auto;
+      opacity: 0.75;
+      overflow: hidden;
+      transition-timing-function: ease-in;
+      transition: 1.5s;
+}
+
+img:hover {
+      opacity: 1;
+      -moz-transform: scale(1.25);
+      -webkit-transform: scale(1.25); 
+      transform: scale(1.25);
+      transition-timing-function: ease-in;
+      transition: 1.5s;
 }

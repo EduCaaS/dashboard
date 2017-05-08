@@ -13,6 +13,6 @@
     <bugs>https://github.com/EduCaaS/dashboard/issues</bugs>
     <dependencies>
         <owncloud min-version="9.2"/>
-        <nextcloud min-version="11" max-version="11"/>
+        <nextcloud min-version="11" max-version="12"/>
     </dependencies>
 </info>
