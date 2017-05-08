@@ -50,4 +50,3 @@ or:
     phpunit -c phpunit.integration.xml
 
 for integration tests
-# dashboard
