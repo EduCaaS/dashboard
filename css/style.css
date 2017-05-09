@@ -31,7 +31,7 @@ h4.app-title {
       cursor: pointer;
  }
 
-img {
+box a img {
       width: 100%;
       max-width: 420px;
       height: auto;
@@ -41,7 +41,7 @@ img {
       transition: 1.5s;
 }
 
-img:hover {
+box a img:hover {
       opacity: 1;
       -moz-transform: scale(1.25);
       -webkit-transform: scale(1.25); 
