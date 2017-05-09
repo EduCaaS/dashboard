@@ -6,12 +6,18 @@ body {
 }
 
 .container-fluid {
-      margin: 0 auto;
+      margin: 5px auto;
+      margin-left: 50px !important;
+      margin-right: 50px !important;
 }
 
 h3 {
       text-align: center;
       margin-bottom: 1em;
+}
+
+h4.app-title {
+      text-align: center;
 }
 
 .row {
@@ -42,4 +48,10 @@ img:hover {
       transform: scale(1.25);
       transition-timing-function: ease-in;
       transition: 1.5s;
+}
+
+a:hover,
+a:focus {
+     color: #23527c;
+     text-decoration: none !important ;
 }
