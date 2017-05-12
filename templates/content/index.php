@@ -44,8 +44,6 @@
     </div>
     <div class="col-md-4">
       <div class="box">
-        <a href="https://videochat.educaas.io"><img src="/custom_apps/educaasdashboard/img/hublin.svg"></a>
-        <h4 class="app-title">Videochat</h4>
       </div>
     </div>
     <div class="col-md-4">
