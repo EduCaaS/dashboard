@@ -2,24 +2,28 @@
   <div class="row">
     <div class="col-md-4">
       <div class="box">
+        <a href="https://blog.educaas.io"><img src="/custom_apps/educaasdashboard/img/wordpress.svg"></a>
+        <h4 class="app-title">Blog</h4>
       </div>
     </div>
     <div class="col-md-4">
       <div class="box">
-       <a href="http://openedx.educaas.io"><img src="/custom_apps/educaasdashboard/img/logo-edx.png"></a>
+        <a href="http://openedx.educaas.io"><img src="/custom_apps/educaasdashboard/img/logo-edx.png"></a>
         <h4 class="app-title">Cursos</h4>
       </div>
     </div>
     <div class="col-md-4">
       <div class="box">
+        <a href="https://chat.educaas.io"><img src="/custom_apps/educaasdashboard/img/rocket-chat.svg"></a>
+        <h4 class="app-title">Chat</h4>
       </div>
     </div>
   </div>
   <div class="row">
     <div class="col-md-4">
       <div class="box">
-        <a href="https://blog.educaas.io"><img src="/custom_apps/educaasdashboard/img/wordpress.svg"></a>
-        <h4 class="app-title">Blog</h4>
+        <a href="https://slides.educaas.io"><img src="/custom_apps/educaasdashboard/img/slides.png"></a>
+        <h4 class="app-title">Presentaciones</h4>
       </div>
     </div>
     <div class="col-md-4">
@@ -30,8 +34,8 @@
     </div>
     <div class="col-md-4">
       <div class="box">
-        <a href="https://chat.educaas.io"><img src="/custom_apps/educaasdashboard/img/rocket-chat.svg"></a>
-        <h4 class="app-title">Chat</h4>
+        <a href="https://draw.educaas.io"><img src="/custom_apps/educaasdashboard/img/diagramas.jpg"></a>
+        <h4 class="app-title">Diagramas</h4>
       </div>
     </div>
   </div>
