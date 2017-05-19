@@ -22,7 +22,7 @@
   <div class="row">
     <div class="col-md-4">
       <div class="box">
-        <a href="https://slides.educaas.io"><img src="/custom_apps/educaasdashboard/img/slides.png"></a>
+        <a href="https://slides.educaas.io"><img src="/custom_apps/educaasdashboard/img/slides.jpg"></a>
         <h4 class="app-title">Presentaciones</h4>
       </div>
     </div>
