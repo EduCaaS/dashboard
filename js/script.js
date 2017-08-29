@@ -40,7 +40,6 @@ tour.addStep('blog', {
 });
 
 tour.addStep('cursos', {
-  title: 'Example Shepherd',
   text: 'Consulta los contenidos disponibles en el MOOC!',
   attachTo: '#cursos bottom',
   advanceOn: '.docs-link click',
