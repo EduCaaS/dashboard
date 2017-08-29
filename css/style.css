@@ -2,6 +2,7 @@
 body {
       font-family: 'Oswald', sans-serif;
       color: #3a3a3a;
+      background-color: #FFFFFF;
 }
 
 .container-fluid {
@@ -15,7 +16,7 @@ h3 {
       margin-bottom: 1em;
 }
 
-h4.app-title {
+h2.app-title {
       text-align: center;
 }
 
