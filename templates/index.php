@@ -1,8 +1,6 @@
 <?php
 script('educaasdashboard', 'script');
-script('educaasdashboard', 'bootstrap');
 style('educaasdashboard', 'style');
-style('educaasdashboard', 'bootstrap');
 ?>
 
 <div id="app">
