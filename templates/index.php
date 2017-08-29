@@ -18,3 +18,7 @@ style('educaasdashboard', 'shepherd-theme-square-dark');
 		</div>
 	</div>
 </div>
+
+<script nonce="<?php p(\OC::$server->getContentSecurityPolicyNonceManager()->getNonce()) ?>" src="/custom_apps/educaasdashboard/js/tether.js"></script>
+<script nonce="<?php p(\OC::$server->getContentSecurityPolicyNonceManager()->getNonce()) ?>" src="/custom_apps/educaasdashboard/js/shepherd.js"></script>
+<script nonce="<?php p(\OC::$server->getContentSecurityPolicyNonceManager()->getNonce()) ?>" src="/custom_apps/educaasdashboard/js/script.js"></script>
