@@ -1,7 +1,7 @@
 <?php
-script('educaasdashboard', 'script');
 script('educaasdashboard', 'tether');
 script('educaasdashboard', 'shepherd');
+script('educaasdashboard', 'script');
 style('educaasdashboard', 'style');
 style('educaasdashboard', 'shepherd-theme-default');
 style('educaasdashboard', 'shepherd-theme-square-dark');
