@@ -134,6 +134,22 @@ tour.addStep('backend', {
   ]
 });
 
+tour.addStep('appmenu', {
+  text: 'Navega por las distintas aplicaciones disponibles',
+  attachTo: '#appmenu bottom',
+  advanceOn: '.docs-link click',
+  buttons: [
+    {
+      text: 'Salir',
+      action: tour.cancel
+    },
+    {
+      text: 'Siguiente',
+      action: tour.next
+    }
+  ]
+});
+
 tour.addStep('settings', {
   text: 'Gestiona tu perfil: cambia la contraseña, el idioma de la interfaz, etc.',
   attachTo: '#settings bottom',
