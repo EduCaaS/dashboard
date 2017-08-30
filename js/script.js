@@ -7,8 +7,23 @@ tour = new Shepherd.Tour({
   }
 });
 
+tour.addStep('intro', {
+  text: 'Estos breves consejos de ayudarán a conocer las principales funcionalidades de EduCaaS',
+  advanceOn: '.docs-link click',
+  buttons: [
+    {
+      text: 'Salir',
+      action: tour.cancel
+    },
+    {
+      text: 'Siguiente',
+      action: tour.next
+    }
+  ]
+});
+
 tour.addStep('chat', {
-  text: 'No estás solo. Entra en el chat y habla con las otras personas del equipo!',
+  text: 'No estás solo. Entra en el chat y habla con las otras personas del equipo',
   attachTo: '#chat bottom',
   advanceOn: '.docs-link click',
   buttons: [
@@ -24,7 +39,7 @@ tour.addStep('chat', {
 });
 
 tour.addStep('blog', {
-  text: 'Crea contenidos en el blog!',
+  text: 'Crea contenidos en el blog',
   attachTo: '#blog bottom',
   advanceOn: '.docs-link click',
   buttons: [
@@ -40,7 +55,7 @@ tour.addStep('blog', {
 });
 
 tour.addStep('cursos', {
-  text: 'Consulta los contenidos disponibles en el MOOC!',
+  text: 'Consulta los contenidos disponibles en el MOOC',
   attachTo: '#cursos bottom',
   advanceOn: '.docs-link click',
   buttons: [
@@ -56,7 +71,7 @@ tour.addStep('cursos', {
 });
 
 tour.addStep('canvas', {
-  text: 'Participa con tu equipo en una sesión creativa!',
+  text: 'Participa con tu equipo en una sesión creativa',
   attachTo: '#canvas bottom',
   advanceOn: '.docs-link click',
   buttons: [
@@ -72,7 +87,7 @@ tour.addStep('canvas', {
 });
 
 tour.addStep('proyectos', {
-  text: 'Gestiona tus proyectos con metodologías ágiles!',
+  text: 'Gestiona tus proyectos con metodologías ágiles',
   attachTo: '#proyectos bottom',
   advanceOn: '.docs-link click',
   buttons: [
@@ -88,7 +103,7 @@ tour.addStep('proyectos', {
 });
 
 tour.addStep('repositorios', {
-  text: 'Crea recetas de tus proyectos y compártelas con la comunidad!',
+  text: 'Crea recetas de tus proyectos y compártelas con la comunidad',
   attachTo: '#repositorios bottom',
   advanceOn: '.docs-link click',
   buttons: [
@@ -103,5 +118,31 @@ tour.addStep('repositorios', {
   ]
 });
 
+tour.addStep('backend', {
+  text: 'Administra la infraestructura desde el orquestador',
+  attachTo: '#backend bottom',
+  advanceOn: '.docs-link click',
+  buttons: [
+    {
+      text: 'Salir',
+      action: tour.cancel
+    },
+    {
+      text: 'Siguiente',
+      action: tour.next
+    }
+  ]
+});
 
+tour.addStep('settings', {
+  text: 'Gestiona tu perfil: cambia la contraseña, el idioma de la interfaz, etc.',
+  attachTo: '#settings bottom',
+  advanceOn: '.docs-link click',
+  buttons: [
+    {
+      text: 'Salir',
+      action: tour.cancel
+    }
+  ]
+});
 tour.start();
