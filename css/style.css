@@ -11,11 +11,6 @@ body {
       margin-right: 50px !important;
 }
 
-h3 {
-      text-align: center;
-      margin-bottom: 1em;
-}
-
 h2.app-title {
       text-align: center;
 }
@@ -83,3 +78,4 @@ a:focus {
 	.col {  margin: 1% 0 1% 0%; }
 	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
 }
+

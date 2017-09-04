@@ -1,7 +1,6 @@
 <?php
 style('educaasdashboard', 'style');
-style('educaasdashboard', 'shepherd-theme-default');
-style('educaasdashboard', 'shepherd-theme-square-dark');
+style('educaasdashboard', 'introjs');
 ?>
 
 <div id="app">
@@ -16,6 +15,5 @@ style('educaasdashboard', 'shepherd-theme-square-dark');
 	</div>
 </div>
 
-<script nonce="<?php p(\OC::$server->getContentSecurityPolicyNonceManager()->getNonce()) ?>" src="/custom_apps/educaasdashboard/js/tether.js"></script>
-<script nonce="<?php p(\OC::$server->getContentSecurityPolicyNonceManager()->getNonce()) ?>" src="/custom_apps/educaasdashboard/js/shepherd.js"></script>
+<script nonce="<?php p(\OC::$server->getContentSecurityPolicyNonceManager()->getNonce()) ?>" src="/custom_apps/educaasdashboard/js/intro.js"></script>
 <script nonce="<?php p(\OC::$server->getContentSecurityPolicyNonceManager()->getNonce()) ?>" src="/custom_apps/educaasdashboard/js/script.js"></script>
